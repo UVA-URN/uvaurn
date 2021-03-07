@@ -1,2 +1,2 @@
-# uvaurn-website
+# uvaurn
 UVA URN website test
