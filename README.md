@@ -3,7 +3,8 @@ UVA URN website migration from WordPress to [WagTail](https://wagtail.io/).
 
 ## Setting up dev environment ##
 
-* `pip3 install virtualenv`
+* Install virtualenv
+`pip3 install virtualenv`
 
 * Run in root directory of the project
 `virtualenv -p python3 env`
@@ -15,9 +16,11 @@ UVA URN website migration from WordPress to [WagTail](https://wagtail.io/).
 
 * `pip3 install -r requirements.txt` will install the required packages.
 
-* Run migrations to populate the database with `python3 manage.py migrate`.
+* To populate the database, run migrations with
+`python3 manage.py migrate`
 
-* To run the development server, run `python3 manage.py runserver`.
+* To run the development server, run
+`python3 manage.py runserver`.
 
 ## Configuration ##
 
